@@ -1,18 +1,17 @@
-# Food Consumption Prediction using Machine Learning
+# Food Consumption Analysis using Machine Learning
 
 ## Overview
-This project builds a machine learning pipeline to analyze and predict patterns in food consumption data.  
-It includes data preprocessing, feature engineering, model training, and evaluation.
+This project builds a machine learning pipeline to analyze food consumption data using preprocessing and regression techniques.
+
+The workflow includes data cleaning, feature engineering, encoding, scaling, and model training.
 
 ---
 
 ## Dataset
-The dataset contains food consumption information including:
-- Country information
-- Consumption-related numerical features
+The dataset contains global spice consumption data across countries with numerical and categorical features.
 
 Source:
-Google Drive (food-consumption2.csv)
+https://www.kaggle.com/datasets/harishthakur995/global-spice-consumption
 
 ---
 
@@ -24,29 +23,21 @@ Google Drive (food-consumption2.csv)
 - Encoded categorical variable (Country)
 
 ### 2. Model Training
-- Split data into training and testing sets (80/20)
+- Split dataset into training and testing sets
 - Trained Linear Regression model
 
 ### 3. Evaluation
-- R² Score
-- Mean Squared Error (MSE)
-- Actual vs Predicted visualization
-
----
-
-## Results
-- Model performance is evaluated using R² score and MSE
-- Visualization shows prediction accuracy
+- R² Score for model performance
 
 ---
 
 ## Libraries Used
 - pandas
 - numpy
-- nltk
 - matplotlib
 - seaborn
 - scikit-learn
+- nltk
 
 ---
 
